@@ -7,45 +7,28 @@
     <title>Calculadora Simples</title>
   </head>
   <body>
-    <!-- backgound -->
-    <div class="background">
-        
-        <!-- title -->
-      <h1 class="title">Simple Calculator</h1>
-      
-        <!-- start calculator -->
-      <div class="calculator">
-
-        <div class="position row1">
-            <button>+</button>
-            <button>7</button>
-            <button>4</button>
-            <button>1</button>
-            <button>.</button>
-        </div>
-
-        <div class="position row2">
-            <button>-</button>
-            <button>8</button>
-            <button>5</button>
-            <button>2</button>
-            <button>0</button>
-        </div>
-
-        <div class="position row3">
-            <button>X</button>
-            <button>9</button>
-            <button>6</button>
-            <button>3</button>
-            <button>AC</button>
-        </div>
-
-        <div class="position row4">
-            <button>/</button>
-            <button>=</button>
-        </div>
-
-
+    <div class="container-main">
+      <h1>Calculadora</h1>
+      <div class="container-calculadora">
+        <div class="display"><div class="res">RESULTADO</div></div>
+        <button class="operador">+</button>
+        <button>7</button>
+        <button>4</button>
+        <button>1</button>
+        <button class="zero">0</button>
+        <button class="operador">-</button>
+        <button>8</button>
+        <button>5</button>
+        <button>2</button>
+        <button>.</button>
+        <button class="operador">X</button>
+        <button>9</button>
+        <button>6</button>
+        <button>3</button>
+        <button>AC</button>
+        <button class="operador">/</button>
+        <button class="operador" id="calcula-res">=</button>
+      </div>
     </div>
 
     <link rel="stylesheet" href="script.js" />
