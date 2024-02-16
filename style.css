@@ -47,6 +47,10 @@ button:hover {
   background-color: white;
 }
 
+button:focus {
+  outline: none !important;
+}
+
 .resultDisplay {
   background-color: rgb(0, 0, 0);
   color: white;
@@ -56,12 +60,10 @@ button:hover {
 }
 
 .res {
-  margin-right: 10px;
-  padding: 10px;
   display: flex;
-  flex-direction: row-reverse;
-  align-content: center;
+  flex-direction: row;
   font-size: 30px;
+ justify-content: end;
 }
 
 #calcula-res {
